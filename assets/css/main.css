@@ -526,8 +526,8 @@ p{
 
 /*--------------------- 8- Booking Area CSS (Start) ---------------------*/
 .booking{
-    background: -webkit-linear-gradient(rgba(0,0,0,0.3), rgba(0, 0, 0, 0.3)), url(../images/Booking/booking-2.jpg);
-    background:         linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/Booking/booking-2.jpg);
+    background: -webkit-linear-gradient(rgba(0,0,0,0.3), rgba(0, 0, 0, 0.3)), url(../images/Booking/booking-2-resize.jpg);
+    background:         linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/Booking/booking-2-resize.jpg);
     background-position: center;
     background-size: cover;
     min-height: 100vh;
