@@ -427,7 +427,7 @@ p{
     -webkit-box-flex: 1;
     -ms-flex: 1 1 40rem;
         flex: 1 1 40rem;
-    height: 50rem;
+     height: 70rem; 
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -526,8 +526,8 @@ p{
 
 /*--------------------- 8- Booking Area CSS (Start) ---------------------*/
 .booking{
-    background: -webkit-linear-gradient(rgba(0,0,0,0.3), rgba(0, 0, 0, 0.3)), url(../images/Booking/Booking.jpg);
-    background:         linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/Booking/Booking.jpg);
+    background: -webkit-linear-gradient(rgba(0,0,0,0.3), rgba(0, 0, 0, 0.3)), url(../images/Booking/booking-2.jpg);
+    background:         linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/Booking/booking-2.jpg);
     background-position: center;
     background-size: cover;
     min-height: 100vh;
