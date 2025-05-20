@@ -1,0 +1,75 @@
+
+/* Floating Contact Bar CSS */
+.floating-contact {
+  position: fixed;
+  right: 10px;
+  top: 75%;
+  transform: translateY(-50%);
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.floating-contact a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.floating-contact a:hover {
+  transform: scale(1.1);
+}
+
+.floating-contact .phone {
+  background-color: #2196f3; /* Màu xanh như trong hình */
+}
+
+.floating-contact .email {
+  background-color: #ff7714; /* Màu cam như trong hình */
+}
+
+.floating-contact .zalo {
+  background-color: #0068ff; /* Màu xanh Zalo */
+}
+
+.floating-contact .messenger {
+  background-color: #f5222d; /* Màu đỏ Messenger */
+}
+
+.floating-contact i {
+  font-size: 24px;
+}
+
+.floating-contact img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .floating-contact {
+    right: 10px;
+  }
+  
+  .floating-contact a {
+    width: 45px;
+    height: 45px;
+  }
+  
+  .floating-contact i {
+    font-size: 20px;
+  }
+  
+  .floating-contact img {
+    width: 25px;
+    height: 25px;
+  }
+}

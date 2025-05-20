@@ -499,7 +499,7 @@ p{
     display: flex;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
-    justify-content: flex-end;
+    justify-content: flex-start;
     -webkit-box-align: start;
     -ms-flex-align: start;
     -ms-grid-row-align: flex-start;
@@ -1266,10 +1266,10 @@ p{
     -webkit-box-flex: 1;
     -ms-flex: 1 1 50rem;
         flex: 1 1 50rem;
-    padding: 2rem;
+    /* padding: 2rem; */
     -webkit-box-shadow: var(--box-shadow);
             box-shadow: var(--box-shadow);
-    border: var(--border);
+    /* border: var(--border); */
 }
 
 .contact-info .image{
@@ -1287,7 +1287,7 @@ p{
     justify-content: space-between;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    padding-top: 3rem;
+    padding: 5rem;
     gap: 2rem;
 }
 
@@ -1552,3 +1552,67 @@ p{
 }
 
 /*--------------------- 19- Scroll-Top Area CSS (End) ---------------------*/
+
+
+/* bookin start */
+
+.booking-content {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 4rem;
+  border-radius: 1rem;
+  text-align: center;
+  border: 0.2rem solid var(--main-color);
+  width: 100%;
+  margin: 0 auto;
+  color: var(--white);
+  box-shadow: var(--box-shadow);
+}
+
+.booking-content h3 {
+  color: var(--main-color);
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+.booking-content .info-box {
+  font-size: 1.8rem;
+  color: var(--white);
+  line-height: 1.8;
+}
+
+.booking-content .phone-numbers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.booking-content .phone-numbers i {
+  font-size: 3rem;
+  color: var(--main-color);
+}
+
+.booking-content .numbers p {
+  margin: 0.3rem 0;
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--main-color);
+}
+
+.booking-content .btn {
+  margin-top: 2rem;
+  background-color: var(--main-color);
+  border: none;
+  font-size: 1.8rem;
+  padding: 1rem 3rem;
+  text-transform: none;
+  transition: 0.3s;
+}
+
+/* .booking-content .btn:hover {
+  background-color: var(--white);
+  color: var(--black);
+} */
+
+/* bookin end */
