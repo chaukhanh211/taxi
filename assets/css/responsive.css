@@ -1,0 +1,118 @@
+/*--------------------- Responsive (Start) ---------------------*/
+@media (max-width: 991px) {
+    html {
+        font-size: 55%;
+    }
+   
+    .header #menu-btn{
+        display: block;
+    }
+  
+    .header .navbar{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        height: calc(100vh - 5rem);
+        background: var(--white);
+        width: 30rem;
+        border: 0.1rem solid var(--main-color);
+        -webkit-box-shadow: var(--box-shadow);
+                box-shadow: var(--box-shadow);
+        -webkit-transform: translateX(100%);
+                transform: translateX(100%);
+        overflow-y: auto;
+        -webkit-transition: 0.2s linear;
+        -moz-transition: 0.2s linear;
+        -o-transition: 0.2s linear;
+        transition: 0.2s linear;
+        padding: 2rem;
+    }
+  
+    .header .navbar.active{
+        -webkit-transform: translateX(0%);
+                transform: translateX(0%);
+    }
+  
+    .header .navbar a{
+        display: block;
+        font-size: 2rem;
+        padding: 1rem 0rem;
+        margin: 1rem 0;
+    }
+    
+    .navbar::-webkit-scrollbar{
+        width: 0.8rem;
+    }
+    
+    .navbar::-webkit-scrollbar-thumb{
+        border-radius: 1rem;
+        background-color: var(--secondary-color);
+    }
+  
+    .navbar::-webkit-scrollbar-track{
+        background: transparent;
+    } 
+
+    section, .header, .footer{
+        padding: 2rem;
+    }
+
+    .contact .box-container{
+        padding: 0 2rem;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .counting{
+        padding: 3rem;
+    }
+  
+} 
+  
+@media(max-width:786px){
+    
+    .home-item .content .text{
+        padding: 2rem;
+    }
+
+    .home-item{
+        height: 75rem;
+    }
+
+    .home-item .content{ 
+        padding: 10rem 2rem;
+    }
+
+}
+  
+@media(max-width: 450px){
+  
+    html{
+        font-size: 50%;
+    }
+  
+    section, .header, .footer{
+        padding: 1rem;
+    }
+
+    .home-item{
+        height: 100vh;
+    }
+
+    .home-item .content{ 
+        padding: 10rem 1rem;
+    }
+
+    .home-item .content .text{
+        margin-right: 10%;
+        margin-left: 10%;
+        width: 80%;
+    }
+
+
+    .contact .box-container{
+        padding: 0 1rem;
+    }
+  
+}
+
